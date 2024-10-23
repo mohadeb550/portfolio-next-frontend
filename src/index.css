@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @font-face {
+  font-family: 'orbitron-regular';
+  src: url('/src/assets/Fonts/Orbitron-Regular.ttf')format('truetype')
+} */
+
+
+
+ /* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900 */
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+}
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+
+.inter-thin {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+.inter-thin-extra {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+
+
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .gradient-experience {
+    background: rgba(18,27,42,0.5);
+    /* background:linear-gradient(106deg, rgba(18,27,42,1) 25%, rgba(15,23,36,0.8) 55%); */
+    background:linear-gradient(110deg, rgba(15,23,36,0.8) 25%, rgb(16, 24, 38) 55%);
+}
+
+  .gradient-hover:hover{
+    transition: ease-in-out;
+    background: rgb(131,103,212);
+    background: linear-gradient(106deg, rgba(131,103,212,1) 9%, rgba(41,158,201,1) 37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text {
+    background: rgb(131,103,212);
+    background: linear-gradient(106deg, rgba(131,103,212,1) 9%, rgba(41,158,201,1) 37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+  .gradient-background {
+    background: rgb(131,103,212);
+    background:linear-gradient(106deg, rgba(131,103,212,1) 25%, rgba(41,158,201,1) 55%);
+}
+  .gradient-background-card {
+    background: rgb(131,103,212);
+    background:linear-gradient(106deg, rgba(131,103,212,0.4) 25%, rgba(41,158,201,0.4) 55%);
+}
+  .gradient-project-card {
+    background: rgb(131,103,212);
+    background:linear-gradient(106deg, rgba(131,103,212,0.4) 25%, rgba(41,158,201,0.4) 55%);
+}
+  .gradient-background-sidebar {
+    background: rgb(131,103,212);
+    background:linear-gradient(180deg, rgba(18,10,42,1) 26%, rgba(13,44,55,1) 75%);
+}
+  .gradient-background-faq {
+    background: rgb(15,40,60);
+    background: linear-gradient(346deg, rgba(15,40,60,0.25335084033613445) 26%, rgba(14,55,77,0.3561799719887955) 66%);
+}
+  .gradient-background-faq-active {
+    background: rgb(15,40,60);
+    background: linear-gradient(34deg, rgba(15,40,60,0.65335084033613445) 26%, rgba(14,55,77,41799719887955) 78%);
+}
+
+.gradient-border {
+    border: 5px solid transparent; /* Set the border width */
+    background: transparent;
+    background: linear-gradient(106deg, rgba(131,103,212,1) 22%, rgba(41,158,201,1) 99%);
+
+}
+
+.custom-shadow {
+  box-shadow: 0px 0px 60px 5px rgba(41,158,201, 0.8); /* Red shadow with 50% opacity */
+}
+.custom-shadow-icon {
+  box-shadow: 0px 0px 3px 1px rgba(41,158,201, 0.8); /* Red shadow with 50% opacity */
+}
+
+.gradient-service-card{
+  background: rgb(15,23,36);
+  background: linear-gradient(17deg, rgba(15,23,36,1) 45%, rgba(41,158,201,0.6) 78%);
+}
+.gradient-icon-box{
+  background: rgb(15,23,36);
+  background: linear-gradient(340deg, rgba(15,23,36,1) 19%, rgba(131,103,212,0.8) 40%);
+}
+.gradient-icon{
+  background: rgb(131,103,212);
+  background: linear-gradient(328deg, rgba(131,103,212,0.6) 35%, rgba(41,158,201,1) 73%);
+}
